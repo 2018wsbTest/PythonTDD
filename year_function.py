@@ -7,5 +7,5 @@ def year_naw(year=2019):
         return normal_year
 
 
-print(year_naw())
-print(year_naw(2020))
+# print(year_naw())
+# print(year_naw(2020))
