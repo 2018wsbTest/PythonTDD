@@ -1,17 +1,14 @@
-""""
-Rozwiąż zadanie
-Wykorzystując paradygmaty programowania obiektowego napisz program który będzie pozwalał na obliczanie pół
-i objętości figur płaskich oraz wielościanów.
-* trójkąt* triangle                         1/2*a*h
-* kwadrat* square                           a*a
-* prostokąt* rectangle                      a*b
-* sześcian* cube                            a*a*6       a*a*a
-* ostrosłup foremny* regular pyramid
-    -   * trójkąt* triangle     tetrahedron                    1/2*a*h
-    -   * kwadrat* square                           a*a
-    -
-* owal* oval                                P=πab
 """
+Rozwiąż zadanie
+Wykorzystując paradygmaty programowania obiektowego napisz program który będzie pozwalał na obliczanie pół i objętości figur płaskich oraz wielościanów.
+* trójkąt
+* kwadrat
+* prostokąt
+* sześcian
+* ostrosłup foremny
+* owal
+"""
+
 import math
 
 
@@ -55,15 +52,14 @@ class Volume(SurfaceArea):
         return ((self.basis**3)*math.sqrt(2))/12
 
 
-
-area = SurfaceArea(3)
-print(f"pole trójkąta: {area.triangle_surface_area(4):.2f}")
-print(f"pole kwadratu: {area.aquare_sourface_area():.2f}")
-print(f"pole prostokąta: {area.rectangle_sourface_area(12):.2f}")
-print(f"pole powierzchni ścian sześcianu: {area.cube_sourface_area():.2f}")
-print(f"Pole powierzchni owalu: {area.oval_sourface_area(10):.2f}")
-print(f"pole powierzchni ścian czworościanu foremnego: {area.tetrahedron_sourface_area():.2f}")
-
-volume = Volume(4)
-print(f"objętość sześcianu: {volume.cube_volume():.2f}")
-print(f"objętość czworościanu foremnego: {volume.tetrahedron_volume():.2f}")
+# area = SurfaceArea(3)
+# print(f"pole trójkąta: {area.triangle_surface_area(4):.2f}")
+# print(f"pole kwadratu: {area.aquare_sourface_area():.2f}")
+# print(f"pole prostokąta: {area.rectangle_sourface_area(12):.2f}")
+# print(f"pole powierzchni ścian sześcianu: {area.cube_sourface_area():.2f}")
+# print(f"Pole powierzchni owalu: {area.oval_sourface_area(10):.2f}")
+# print(f"pole powierzchni ścian czworościanu foremnego: {area.tetrahedron_sourface_area():.2f}")
+#
+# volume = Volume(4)
+# print(f"objętość sześcianu: {volume.cube_volume():.2f}")
+# print(f"objętość czworościanu foremnego: {volume.tetrahedron_volume():.2f}")
