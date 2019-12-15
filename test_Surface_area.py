@@ -36,7 +36,5 @@ class TestStringMethods(unittest.TestCase):
         self.assertEquals(volume, 7.542472332656508)
 
 
-
-
 if __name__ == '__main__':
     unittest.main()
