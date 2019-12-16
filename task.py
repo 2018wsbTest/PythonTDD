@@ -72,7 +72,7 @@ def main():
     print(f"pole powierzchni ścian sześcianu: {area.cube_sourface_area():.2f}")
     print(f"Pole powierzchni owalu: {area.oval_sourface_area(10):.2f}")
     print(f"pole powierzchni ścian czworościanu foremnego: {area.tetrahedron_sourface_area():.2f}")
-    print(f"pole powierzchni ścian czworościanu foremnego: {task.SurfaceArea(9).tetrahedron_sourface_area():.2f}")
+    print(f"pole powierzchni ścian czworościanu foremnego: {SurfaceArea(9).tetrahedron_sourface_area():.2f}")
 
     volume = Volume(4)
     print(f"objętość sześcianu: {volume.cube_volume():.2f}")
@@ -81,5 +81,5 @@ def main():
     print(Volume(2).tetrahedron_volume())
 
 
-main()
+#main()
 

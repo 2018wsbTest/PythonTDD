@@ -18,3 +18,5 @@ def main():
     print(task.Volume(2).tetrahedron_volume())
 #
 main()
+print("\n=====================\n")
+task.main()
